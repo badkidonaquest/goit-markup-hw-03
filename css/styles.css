@@ -235,10 +235,14 @@ img {
 }
 
 .footer {
+  padding-top: 100px;
   background: var(--secondary-background-color);
 }
 
 .footer-text {
+  margin-top: 16px;
+  padding-bottom: 100px;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -247,7 +251,16 @@ img {
 
 /* portfolio */
 
+.portfolio-section {
+  padding: 96px 0 120px;
+  background-color: #ffffff;
+}
+
 .portfolio-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+  column-gap: 24px;
   list-style: none;
 }
 
@@ -269,10 +282,16 @@ img {
 }
 
 .work-examples {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
+  max-width: 360px;
+  border: 1px solid #E7E9FC;
   background: #ffffff;
 }
 
@@ -281,6 +300,7 @@ img {
 }
 
 .portfolio-title {
+  padding: 32px 0 8px 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -289,6 +309,7 @@ img {
 }
 
 .portfolio-text {
+  padding: 0 0 32px 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
