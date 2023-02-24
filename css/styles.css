@@ -41,11 +41,16 @@ img {
   background-color: #ffffff;
 }
 
+.nav-container {
+  display: flex;
+}
+
 .link {
   text-decoration: none;
 }
 
 .logo {
+  margin-right: 76px;
   text-transform: uppercase;
   font-family: "Raleway";
   font-size: 18px;
@@ -68,7 +73,9 @@ img {
 /* site nav */
 
 .site-nav {
+  display: flex;
   list-style: none;
+  gap: 40px;
 }
 
 .site-nav .link {
@@ -93,7 +100,9 @@ img {
 }
 
 .address-list {
+  display: flex;
   list-style: none;
+  gap: 40px;
 }
 
 .contact {
@@ -109,6 +118,12 @@ img {
 }
 
 /* section */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .hero {
   padding: 188px 472px;
@@ -175,7 +190,9 @@ img {
   color: var(--primary-text-color);
 }
 
-.about-section {margin: 120px 0;}
+.about-section {
+  margin: 120px 0;
+}
 
 .section-title {
   margin-bottom: 72px;
@@ -197,7 +214,7 @@ img {
 }
 
 .team-list {
-  background-color:#ffffff;
+  background-color: #ffffff;
   list-style: none;
 }
 
