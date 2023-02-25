@@ -2,7 +2,7 @@
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
   --accent: #4d5ae5;
-  --primary-background-color: #e5e5e5;
+  --primary-background-color: #ffffff;
   --secondary-background-color: #2e2f42;
 }
 
@@ -35,10 +35,14 @@ img {
   padding-right: 15px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
-  background-color: #ffffff;
 }
 
 .nav-container {
@@ -87,9 +91,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #404bbf;
+}
+
+.nav-link {
+  padding: 20px 0;
 }
 
 .address {
@@ -106,6 +115,7 @@ img {
 }
 
 .contact {
+  padding: 20px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -141,6 +151,9 @@ img {
 }
 
 .hero-btn {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border-color: transparent;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -170,7 +183,9 @@ img {
 }
 
 .feature-list {
+  display: flex;
   list-style: none;
+  column-gap: 24px;
 }
 
 .title {
@@ -191,10 +206,11 @@ img {
 }
 
 .about-section {
-  margin: 120px 0;
+  padding: 120px 0;
 }
 
 .section-title {
+  text-align: center;
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -205,7 +221,13 @@ img {
 }
 
 .about-list {
+  display: flex;
+  column-gap: 24px;
   list-style: none;
+}
+
+.about-item {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .team-section {
@@ -214,9 +236,14 @@ img {
 }
 
 .team-list {
-  background-color: #ffffff;
+  display: flex;
+  column-gap: 24px;
   list-style: none;
 }
+
+/* .list-item {
+flex-basis: calc((100% - 72px) / 4);
+} */
 
 .team-item {
   margin-bottom: 8px;
@@ -253,7 +280,6 @@ img {
 
 .portfolio-section {
   padding: 96px 0 120px;
-  background-color: #ffffff;
 }
 
 .portfolio-list {
@@ -265,6 +291,9 @@ img {
 }
 
 .portfolio-btn {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -291,7 +320,7 @@ img {
 
 .portfolio-item {
   max-width: 360px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   background: #ffffff;
 }
 
