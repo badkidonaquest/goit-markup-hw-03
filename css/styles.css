@@ -129,17 +129,15 @@ img {
 
 /* section */
 
-.hero-container {
+.hero {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 188px 472px;
+  margin-bottom: 120px;
+  background-color: var(--secondary-background-color);
 }
 
-.hero {
-  padding: 188px 472px;
-  background-color: var(--secondary-background-color);
-  margin-bottom: 120px;
-}
 .hero-title {
   max-width: 496px;
   margin-bottom: 48px;
